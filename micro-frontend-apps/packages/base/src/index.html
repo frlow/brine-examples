@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Micro frontend demo</title>
+  <script async>
+    (async ()=>{
+      const im = document.createElement('script')
+      im.type = 'overridable-importmap'
+      im.innerText = await fetch('/assets.json').then(r=>r.text())
+      document.head.append(im)
+      const override = document.createElement('script')
+      override.type = 'text/javascript'
+      override.src = 'https://cdn.jsdelivr.net/npm/import-map-overrides/dist/import-map-overrides.js'
+      override.onload=()=>{
+        import("components")
+        import("root")
+      }
+      document.head.append(override)
+    })()
+  </script>
+</head>
+
+<body>
+<root-main></root-main>
+<import-map-overrides-full
+  show-when-local-storage='devtools'
+></import-map-overrides-full>
+</body>
+
+</html>

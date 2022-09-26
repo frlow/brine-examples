@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "dist/elements/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "brine start -x my src",
+    "build": "brine build -x my src"
+  },
+  "dependencies": {
+    "@frlow/brine": "^1.0.30"
+  },
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "brine-micro-frontend-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "brine": "brine",
+    "build": "yarn workspaces foreach -A -p run build",
+    "serve": "yarn build && serve dist -p 4000",
+    "start": "concurrently -k \"yarn workspaces foreach -A -pi --jobs unlimited run start\" \"browser-sync start --port 4000 --server dist --files dist -b false \""
+  },
+  "devDependencies": {
+    "@frlow/brine": "^1.0.31",
+    "browser-sync": "^2.27.10",
+    "concurrently": "^7.4.0",
+    "prettier": "^2.7.1"
+  }
+}

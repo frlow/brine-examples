@@ -1,0 +1,15 @@
+{
+  "name": "red",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "brine start -x red src/main.svelte -o ../../dist/red --no-docs",
+    "build": "brine build -x red src/main.svelte -o ../../dist/red --no-docs"
+  },
+  "dependencies": {
+    "@frlow/brine": "^1.0.30",
+    "library": "1.0.0",
+    "react-router-dom": "^6.4.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "base",
+  "scripts": {
+    "start": "copy-and-watch src/**/* ../../dist --watch",
+    "build": "copy-and-watch src/**/* ../../dist"
+  },
+  "devDependencies": {
+    "copy-and-watch": "^0.1.6"
+  }
+}

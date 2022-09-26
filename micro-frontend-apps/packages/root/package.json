@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "brine start -x root src/main.tsx -o ../../dist/root --no-docs -e react,react-dom",
+    "build": "brine build -x root src/main.tsx -o ../../dist/root --no-docs -e react,react-dom"
+  },
+  "dependencies": {
+    "@frlow/brine": "^1.0.30",
+    "library": "1.0.0",
+    "react-router-dom": "^6.4.1"
+  }
+}

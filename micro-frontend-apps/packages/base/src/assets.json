@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "vue": "/shared/vue.js",
+    "react": "/shared/react.js",
+    "react-dom": "/shared/react-dom.js",
+    "red": "/red/module/main.js",
+    "green": "/green/module/main.js",
+    "green2": "/green2/module/main.js",
+    "root": "/root/module/main.js",
+    "components": "/shared/components.js"
+  }
+}
