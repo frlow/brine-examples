@@ -1,0 +1,11 @@
+{
+  "name": "brine-examples",
+  "workspaces": [
+    "examples/**/*"
+  ],
+  "scripts": {
+    "mf": "yarn workspace micro-frontend-apps",
+    "lazy": "yarn workspace react-lazy",
+    "simple": "yarn workspace vue-simple"
+  }
+}
