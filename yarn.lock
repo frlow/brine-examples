@@ -439,14 +439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@frlow/brine-example@npm:^1.0.31":
-  version: 1.0.31
-  resolution: "@frlow/brine-example@npm:1.0.31"
-  checksum: a06e320ff4e55c442cb42230afd183d01e9851d3132badc51216a3f313001a2e11aa48eb7fda1580a216307b1b10e891102bc146164d5969130493b453172bcd
-  languageName: node
-  linkType: hard
-
-"@frlow/brine@npm:^1.0.30, @frlow/brine@npm:^1.0.31":
+"@frlow/brine@npm:^1.0.30":
   version: 1.0.31
   resolution: "@frlow/brine@npm:1.0.31"
   dependencies:
@@ -488,6 +481,51 @@ __metadata:
   bin:
     brine: dist/cli.js
   checksum: ce6a75be782e371cb072417a21b0eaaf025395dce742be3fad0b64037e772780da38468b1ee28ca789bd2a0e6a3bf2e9df4d65c00febaae20364108c7419121d
+  languageName: node
+  linkType: hard
+
+"@frlow/brine@npm:^1.0.31":
+  version: 1.0.33
+  resolution: "@frlow/brine@npm:1.0.33"
+  dependencies:
+    "@babel/core": ^7.17.12
+    "@babel/preset-typescript": ^7.17.12
+    "@mdx-js/esbuild": ^2.1.3
+    "@types/babel__core": ^7.1.17
+    "@types/command-line-args": ^5.2.0
+    "@types/express": ^4.17.13
+    "@types/fs-extra": ^9.0.13
+    "@types/glob": ^7.2.0
+    "@types/node": ^17.0.23
+    "@types/react": ^18.0.8
+    "@types/react-dom": ^18.0.3
+    "@types/ws": ^8.5.3
+    babel-preset-solid: ^1.4.0
+    browser-sync: ^2.27.10
+    chokidar: ^3.5.3
+    command-line-args: ^5.2.1
+    compression: ^1.7.4
+    esbuild: ^0.14.36
+    esbuild-sass-plugin: ^2.2.6
+    fs-extra: ^10.1.0
+    glob: ^8.0.3
+    prettier: ^2.6.2
+    pushstate-server: ^3.1.0
+    react: ^18.1.0
+    react-dom: ^18.1.0
+    react-to-webcomponent: ^1.5.1
+    solid-element: ^1.4.1
+    solid-js: ^1.4.1
+    svelte: ^3.47.0
+    svelte-preprocess: ^4.10.6
+    ts-node: ^10.7.0
+    typescript: ^4.6.3
+    vscode-html-languageservice: ^4.2.4
+    vue: ^3.2.33
+    wc-react: ^0.5.0
+  bin:
+    brine: dist/cli.js
+  checksum: c3545caa2c8237319dcaf4056af25495039a31122b65ed33fe9ff993af0264fe038d67c67f8ba9d6a65f62c0be650936e7bdb21684dfe691f4ee3dd67feab717
   languageName: node
   linkType: hard
 
@@ -3476,9 +3514,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"library@1.0.0, library@workspace:examples/micro-frontend-apps/packages/library":
+"library@1.0.0, library@^1.0.0, library@workspace:examples/library":
   version: 0.0.0-use.local
-  resolution: "library@workspace:examples/micro-frontend-apps/packages/library"
+  resolution: "library@workspace:examples/library"
   dependencies:
     "@frlow/brine": ^1.0.30
   languageName: unknown
@@ -4630,10 +4668,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-lazy@workspace:examples/react-lazy"
   dependencies:
-    "@frlow/brine-example": ^1.0.31
     "@types/react": ^18.0.17
     "@types/react-dom": ^18.0.6
     "@vitejs/plugin-react": ^2.1.0
+    library: ^1.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.6.4
@@ -5878,8 +5916,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vue-simple@workspace:examples/vue-simple"
   dependencies:
-    "@frlow/brine-example": ^1.0.31
     "@vitejs/plugin-vue": ^3.1.0
+    library: ^1.0.0
     typescript: ^4.6.4
     vite: ^3.1.0
     vue: ^3.2.37

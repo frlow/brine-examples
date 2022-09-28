@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import './App.css'
-import {Toggle} from '@frlow/brine-example/wrapper/react/Toggle.lazy'
+import {Toggle} from 'library/dist/wrapper/react/Toggle.lazy'
 
 function App() {
   const [showToggle, setShowToggle] = useState(false)

@@ -4,6 +4,7 @@
     "examples/**/*"
   ],
   "scripts": {
+    "library": "yarn workspace library",
     "mf": "yarn workspace micro-frontend-apps",
     "lazy": "yarn workspace react-lazy",
     "simple": "yarn workspace vue-simple"

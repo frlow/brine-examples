@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue({template: {
       compilerOptions: {
         // treat all components starting with `my-lit` as custom elements
-        isCustomElement: (tag: string) => tag.startsWith('ex-'),
+        isCustomElement: (tag: string) => tag.startsWith('my-'),
       },
     },})]
 })
