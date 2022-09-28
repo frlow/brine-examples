@@ -1,3 +1,4 @@
+import React from 'react'
 export const DocsNav = ({ links }: { links: string[] }) => {
   const groupedLinks = links.reduce((acc, cur) => {
     const parts = cur.split('--')

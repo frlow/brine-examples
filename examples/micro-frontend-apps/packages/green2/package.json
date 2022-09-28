@@ -8,7 +8,7 @@
     "build": "brine build -x green2 src/main.vue -o ../../dist/green2 --no-docs -e vue"
   },
   "dependencies": {
-    "@frlow/brine": "^1.0.30",
+    "@frlow/brine": "^1.0.35",
     "library": "1.0.0",
     "react-router-dom": "^6.4.1"
   }

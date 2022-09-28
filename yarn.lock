@@ -439,9 +439,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@frlow/brine@npm:^1.0.30":
-  version: 1.0.31
-  resolution: "@frlow/brine@npm:1.0.31"
+"@frlow/brine@npm:^1.0.35":
+  version: 1.0.35
+  resolution: "@frlow/brine@npm:1.0.35"
   dependencies:
     "@babel/core": ^7.17.12
     "@babel/preset-typescript": ^7.17.12
@@ -480,52 +480,7 @@ __metadata:
     wc-react: ^0.5.0
   bin:
     brine: dist/cli.js
-  checksum: ce6a75be782e371cb072417a21b0eaaf025395dce742be3fad0b64037e772780da38468b1ee28ca789bd2a0e6a3bf2e9df4d65c00febaae20364108c7419121d
-  languageName: node
-  linkType: hard
-
-"@frlow/brine@npm:^1.0.31":
-  version: 1.0.33
-  resolution: "@frlow/brine@npm:1.0.33"
-  dependencies:
-    "@babel/core": ^7.17.12
-    "@babel/preset-typescript": ^7.17.12
-    "@mdx-js/esbuild": ^2.1.3
-    "@types/babel__core": ^7.1.17
-    "@types/command-line-args": ^5.2.0
-    "@types/express": ^4.17.13
-    "@types/fs-extra": ^9.0.13
-    "@types/glob": ^7.2.0
-    "@types/node": ^17.0.23
-    "@types/react": ^18.0.8
-    "@types/react-dom": ^18.0.3
-    "@types/ws": ^8.5.3
-    babel-preset-solid: ^1.4.0
-    browser-sync: ^2.27.10
-    chokidar: ^3.5.3
-    command-line-args: ^5.2.1
-    compression: ^1.7.4
-    esbuild: ^0.14.36
-    esbuild-sass-plugin: ^2.2.6
-    fs-extra: ^10.1.0
-    glob: ^8.0.3
-    prettier: ^2.6.2
-    pushstate-server: ^3.1.0
-    react: ^18.1.0
-    react-dom: ^18.1.0
-    react-to-webcomponent: ^1.5.1
-    solid-element: ^1.4.1
-    solid-js: ^1.4.1
-    svelte: ^3.47.0
-    svelte-preprocess: ^4.10.6
-    ts-node: ^10.7.0
-    typescript: ^4.6.3
-    vscode-html-languageservice: ^4.2.4
-    vue: ^3.2.33
-    wc-react: ^0.5.0
-  bin:
-    brine: dist/cli.js
-  checksum: c3545caa2c8237319dcaf4056af25495039a31122b65ed33fe9ff993af0264fe038d67c67f8ba9d6a65f62c0be650936e7bdb21684dfe691f4ee3dd67feab717
+  checksum: 4804c54d1c401f253536c7306670662dfe0055b884a557ed30de45d61bf5b932c54dd3b8e63aa73fa3815627e6eb64f5f8a0870bc90d35ca2706490c8131fd5b
   languageName: node
   linkType: hard
 
@@ -3069,7 +3024,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "green2@workspace:examples/micro-frontend-apps/packages/green2"
   dependencies:
-    "@frlow/brine": ^1.0.30
+    "@frlow/brine": ^1.0.35
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -3079,7 +3034,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "green@workspace:examples/micro-frontend-apps/packages/green"
   dependencies:
-    "@frlow/brine": ^1.0.30
+    "@frlow/brine": ^1.0.35
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -3518,7 +3473,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "library@workspace:examples/library"
   dependencies:
-    "@frlow/brine": ^1.0.30
+    "@frlow/brine": ^1.0.35
   languageName: unknown
   linkType: soft
 
@@ -3792,7 +3747,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "micro-frontend-apps@workspace:examples/micro-frontend-apps"
   dependencies:
-    "@frlow/brine": ^1.0.31
+    "@frlow/brine": ^1.0.35
     browser-sync: ^2.27.10
     concurrently: ^7.4.0
     prettier: ^2.7.1
@@ -4750,7 +4705,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "red@workspace:examples/micro-frontend-apps/packages/red"
   dependencies:
-    "@frlow/brine": ^1.0.30
+    "@frlow/brine": ^1.0.35
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -4886,7 +4841,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root@workspace:examples/micro-frontend-apps/packages/root"
   dependencies:
-    "@frlow/brine": ^1.0.30
+    "@frlow/brine": ^1.0.35
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown

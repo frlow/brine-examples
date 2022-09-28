@@ -8,7 +8,7 @@
     "build": "brine build -x red src/main.svelte -o ../../dist/red --no-docs"
   },
   "dependencies": {
-    "@frlow/brine": "^1.0.30",
+    "@frlow/brine": "^1.0.35",
     "library": "1.0.0",
     "react-router-dom": "^6.4.1"
   }
