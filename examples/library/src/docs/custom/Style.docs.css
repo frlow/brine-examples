@@ -1,0 +1,136 @@
+* {
+    overflow-anchor: none;
+}
+
+body {
+    display: grid;
+    grid-template:
+        "header header"
+        "nav main"
+        "nav footer";
+    margin: 0;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 0 auto 0;
+    background-color: #18232c;
+    color: white;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: whitesmoke;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+main {
+    grid-area: main;
+    height: calc(100vh - 2rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+.docs-page {
+    display: none;
+}
+
+.docs-page:target {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-code {
+    border: 1px solid #535353;
+    background-color: #535353;
+    padding: 1rem;
+    white-space: pre-wrap;
+}
+
+.example-content {
+    border: 1px solid #535353;
+    background-color: #383838;
+    padding: 1rem;
+}
+
+.example {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.example-code-react {
+    display: block;
+}
+.example-code-react label {
+    color: #61DBFB;
+}
+
+.example-code-vue {
+    margin-top: 1rem;
+    display: block;
+}
+.example-code-vue label{
+    color: #42b883;
+}
+
+.docs-info {
+    margin-right: 2rem;
+}
+
+.docs-info-table {
+    width: 100%;
+    border: 1px solid #535353;
+    background-color: #383838;
+    padding: 1rem;
+}
+
+.docs-info-table td {
+   width: 7rem;
+}
+
+.docs-info-table tr {
+    text-align: left;
+}
+nav ul{
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+
+.docs-nav-root{
+    margin-top: 1rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3e3737;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -439,9 +439,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@frlow/brine@npm:^1.0.35":
-  version: 1.0.35
-  resolution: "@frlow/brine@npm:1.0.35"
+"@frlow/brine@npm:^1.0.40":
+  version: 1.0.40
+  resolution: "@frlow/brine@npm:1.0.40"
   dependencies:
     "@babel/core": ^7.17.12
     "@babel/preset-typescript": ^7.17.12
@@ -480,7 +480,7 @@ __metadata:
     wc-react: ^0.5.0
   bin:
     brine: dist/cli.js
-  checksum: 4804c54d1c401f253536c7306670662dfe0055b884a557ed30de45d61bf5b932c54dd3b8e63aa73fa3815627e6eb64f5f8a0870bc90d35ca2706490c8131fd5b
+  checksum: 7b569cc0c53d3a78a73e2465b7607952f396795edd4d5393fff47983af262ad04a7833db6feee24cde0c01b259a714bd83562808dadef378b04db6952a739432
   languageName: node
   linkType: hard
 
@@ -3024,7 +3024,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "green2@workspace:examples/micro-frontend-apps/packages/green2"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -3034,7 +3034,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "green@workspace:examples/micro-frontend-apps/packages/green"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -3473,7 +3473,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "library@workspace:examples/library"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
   languageName: unknown
   linkType: soft
 
@@ -3747,7 +3747,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "micro-frontend-apps@workspace:examples/micro-frontend-apps"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
     browser-sync: ^2.27.10
     concurrently: ^7.4.0
     prettier: ^2.7.1
@@ -4705,7 +4705,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "red@workspace:examples/micro-frontend-apps/packages/red"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown
@@ -4841,7 +4841,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root@workspace:examples/micro-frontend-apps/packages/root"
   dependencies:
-    "@frlow/brine": ^1.0.35
+    "@frlow/brine": ^1.0.40
     library: 1.0.0
     react-router-dom: ^6.4.1
   languageName: unknown

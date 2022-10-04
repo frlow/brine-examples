@@ -13,7 +13,7 @@
     "start": "concurrently -k \"yarn workspaces foreach --from '{base,green,green2,red,root,shared}' -pi --jobs unlimited run start\" \"browser-sync start --port 4000 --server dist --files dist -b false --no-ui \""
   },
   "devDependencies": {
-    "@frlow/brine": "^1.0.35",
+    "@frlow/brine": "^1.0.40",
     "browser-sync": "^2.27.10",
     "concurrently": "^7.4.0",
     "prettier": "^2.7.1"
